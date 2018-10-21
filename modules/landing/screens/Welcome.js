@@ -1,7 +1,6 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
-// This what we are trying to avoid
-import Dots from "../../dots/components/Dots";
+import Dots from "dots/components/Dots";
 
 export default class WelcomeScreen extends React.Component {
   render() {

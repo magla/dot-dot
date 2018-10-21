@@ -1,5 +1,6 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
+// We can leave the relative path in this case
 import Dot from "./Dot";
 
 export default class Dots extends React.Component {
