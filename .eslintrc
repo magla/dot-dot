@@ -4,6 +4,14 @@
   "ecmaFeatures": {
     "classes": true
   },
+  "settings": {
+    "import/resolver": {
+      "react-native": {},
+      "alias": {
+        "map": [["~", "./modules"]]
+      }
+    }
+  },
   "plugins": ["react", "import"],
   "rules": {
     "import/no-unresolved": 2,
