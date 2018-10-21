@@ -4,18 +4,19 @@ import Dot from "/www/dot-dot/modules/dots/components/Dot";
 export default class Dots extends React.Component {
   constructor(props) {
     super(props);
-    var dots = [];
+    const dots = [];
 
-    for (var i = 0; i < 50; i++) {
-      dots.push(<Dot key={"dot-" + i} />);
+    for (let i = 0; i < 50; i++) {
+      dots.push(<Dot key={`dot-${i}`} />);
     }
 
     this.state = {
-      dots
+      dots,
     };
   }
 
   render() {
-    return this.state.dots;
+    const { dots } = this.state;
+    return dots;
   }
 }
