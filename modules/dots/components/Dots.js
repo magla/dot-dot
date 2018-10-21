@@ -1,5 +1,4 @@
 import React from "react";
-import { View, StyleSheet } from "react-native";
 import Dot from "/www/dot-dot/modules/dots/components/Dot";
 
 export default class Dots extends React.Component {
