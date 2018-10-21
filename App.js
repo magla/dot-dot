@@ -1,8 +1,6 @@
-import React from "react";
-import WelcomeScreen from "./modules/landing/screens/Welcome";
+import React from 'react';
+import WelcomeScreen from './modules/landing/screens/Welcome';
 
-export default class App extends React.Component {
-  render() {
-    return <WelcomeScreen />;
-  }
+export default function App() {
+  return <WelcomeScreen />;
 }
